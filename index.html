@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark"
+        style="background: linear-gradient(to right, #001a35, #0e2d51, #0063ff);">
+
+        <div class="container">
+
+            <a href="#" class="navbar-brand"><span class="text-white fs-4">Emily En Paris</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#sinopsis" class="nav-link text-white">Sinopsis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ropa-y-sitios" class="nav-link text-white">Ropa y Sitios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#personajes" class="nav-link text-white">Personajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#frases" class="nav-link text-white">Frases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#suscribir" class="nav-link text-white">Suscribir</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="home">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-controls">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"
+                        style="background-image:url('img/emily-paris-case-celular-1200x630-1.webp')"></li>
+                    <li data-target="#carousel" data-slide-to="1"
+                        style="background-image:url('img/emily-paris-925x470.jpg')"></li>
+                    <li data-target="#carousel" data-slide-to="2"
+                        style="background-image:url('img/emily-en-paris-portada.jpg')"></li>
+
+                </ol>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <img src="img/Diseño sin título (12).png" alt="Prev">
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <img src="img/Diseño sin título (11).png" alt="Next">
+                </a>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"
+                    style="background-image:url('img/emily-paris-case-celular-1200x630-1.webp')">
+                    <div class="container">
+                        <h2>Moda en Paris</h2>
+                        <p>Con Emily</p>
+                        <a href="https://www.youtube.com/watch?v=_E-Ny7vEmeQ" class="btn btn-primary"
+                            target="_blank">Ver más</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url('img/emily-paris-925x470.jpg')">
+                    <div class="container">
+                        <h2>Temporada de Secretos</h2>
+                        <a href="https://www.youtube.com/watch?v=NN7GvlBuW9U" class="btn btn-primary"
+                            target="_blank">Ver más</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url('img/emily-en-paris-portada.jpg')">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sinopsis" class="sinopsis section-padding paused">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/emily-en-paris-portada.jpg" alt="Imagen de Emily en Paris" class="img-fluid rounded" style="max-width: 100%;">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="h2-color-change">Sinopsis</h2>
+                    <p class="text-slide-up">
+                        Emily en Paris es una emocionante serie que sigue las aventuras de Emily, una joven estadounidense que se muda a París para trabajar en marketing. Acompaña a Emily mientras navega por la moda, la cultura y los secretos de la ciudad de la luz. Una historia llena de diversión, romance y desafíos que no querrás perderte.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="ropa-y-sitios" class="ropa section-padding p-3">
+          <h2 class="text-center h2-color-change">Ropa y Sitios</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="team-item">
+                <img src="img/01.png" alt="">
+                <div class="info">
+                  <h5>Los Jardines de Luxemburgo</h5>
+                  <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="video-btn btn btn-primary" data-video-src="https://www.youtube.com/embed/40rj8uweSkk?si=VzoMbUzHmxSh7UuV">ver mas</button>
+                  <div class="social">
+                    <a href="https://www.facebook.com/Emilyinparistv/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/emilyemparis?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/emilyinparis/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@NetflixLATAM" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+                
+                </div>
+              </div>
+            </div>
+
+           
+
+            <div class="col-md-4">
+                <div class="team-item">
+                  <img src="img/02.png" alt="">
+                  <div class="info">
+                    <h5>Little Black Dress</h5>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="video-btn btn btn-primary" data-video-src="https://www.youtube.com/embed/eAXY_azFe3w?si=B_dgSPs3vdayoQN-">ver mas</button>
+                    <div class="social">
+                      <a href="https://www.facebook.com/Emilyinparistv/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/emilyemparis?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/emilyinparis/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.youtube.com/@NetflixLATAM" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </div>
+                  
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="team-item">
+                  <img src="img/03.png" alt="">
+                  <div class="info">
+                    <h5>Casa emily</h5>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="video-btn btn btn-primary" data-video-src="https://www.youtube.com/embed/Tq56Hwq39aM?si=aQhQx2yl8F0unbtL">ver mas</button>
+                    <div class="social">
+                      <a href="https://www.facebook.com/Emilyinparistv/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/emilyemparis?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/emilyinparis/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.youtube.com/@NetflixLATAM" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </div>
+                  
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="team-item">
+                  <img src="img/04.png" alt="">
+                  <div class="info">
+                    <h5>Amarillo total look</h5>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="video-btn btn btn-primary" data-video-src="https://www.youtube.com/embed/NCvoQwO9-CI?si=ZVA5K7SdCuEfPRlz">ver mas</button>
+                    <div class="social">
+                      <a href="https://www.facebook.com/Emilyinparistv/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/emilyemparis?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/emilyinparis/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.youtube.com/@NetflixLATAM" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </div>
+                  
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="team-item">
+                  <img src="img/05.png" alt="">
+                  <div class="info">
+                    <h5>Pont des Arts</h5>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="video-btn btn btn-primary" data-video-src="https://www.youtube.com/embed/CMzbYB1cbDo?si=GgD3dCKbLusgFgyv">ver mas</button>
+                    <div class="social">
+                      <a href="https://www.facebook.com/Emilyinparistv/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/emilyemparis?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/emilyinparis/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.youtube.com/@NetflixLATAM" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </div>                 
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="team-item">
+                  <img src="img/06.png" alt="">
+                  <div class="info">
+                    <h5>Estampado Vichy eterno</h5>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="video-btn btn btn-primary" data-video-src=" https://www.youtube.com/embed/OS5ntgBB0ko?si=eKQco11VaAA3Ws1A">ver mas</button>
+                    <div class="social">
+                      <a href="https://www.facebook.com/Emilyinparistv/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com/emilyemparis?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/emilyinparis/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.youtube.com/@NetflixLATAM" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </div>
+                  
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+      </div>
+      
+          
+
+    <section id="personajes" class="personajes section-padding p-3">
+        <h2 class="text-center h2-color-change">Personajes</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/tumblr_600286db54b72ac73fc77a3792586041_02f380e9_500.webp" class="rounded-circle w-50" alt="...">
+                    <h5 class="card-title m-4">Emily Cooper - Lily Collins</h5>
+                </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/lucas-bravo.gif" class="rounded-circle w-50" alt="...">
+                <h5 class="card-title m-4">Gabriel - Lucas Bravo</h5>
+                
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/tumblr_d33e3562dbd08dcf477794069678bb94_3d8e7bde_400.gif" class="rounded-circle w-50" alt="...">
+                <h5 class="card-title m-4">Mindy Chen - Ashley Park</h5>
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                      <img src="img/look-over-sylvie-grateau.gif" class="w-50 rounded-circle" alt="...">                
+                      <h5 class="card-title m-4">Sylvie Grateau - Philippine Leroy Beaulieu</h5>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/shaking-head-julien.gif" class="rounded-circle w-50" alt="...">
+                  <h5 class="card-title m-4">Julien - Samuel Arnold</h5>
+                  
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/tumblr_1035264e9c343f689ab6cdb337bdfb2d_1837cb27_400.gif" class="rounded-circle w-50" alt="...">
+                  <h5 class="card-title m-4">Camille - Camille Razat</h5>
+                </div>
+              </div>
+
+
+          </div>
+
+
+    </section>
+
+    <section id="frases" class="paused">
+      <h2 class="text-center h2-color-change">Frases</h2>
+      <div class="contenedor-frases">
+        <h3 class="animate__animated animate__fadeInDownBig fucsia">“Los franceses son romanticos, pero tambien son realistas.”</h3>
+        <h3 class="animate__animated animate__backInRight verde">“Lo maravilloso de Paris es que nadie te juzga por no hacer nada. Aqui eso es casi un arte”</h3>
+        <h3 class="animate__animated animate__bounceInLeft negro">“No soy alguien que pueda compartir un crepe. Necesito el crepe entero.”</h3>
+        <h3 class="animate__animated animate__bounceInLeft azul">“Sin perras basicas como yo, no estarias a la moda.” </h3>
+        <h3 class="animate__animated animate__flipInY violeta">“Beyonce vale mucho mas que la Mona Lisa.”</h3>
+        <h3 class="animate__animated animate__rotateInUpLeft rojo">“Ustedes viven para trabajar, nosotros trabajamos para vivir.”</h3>
+
+      </div>
+    </section>
+    <section id="suscribir">
+      <h3>¡No te pierdas ninguna novedad de Emily in Paris!</h3>
+      <form>
+          <input type="email" id="email" placeholder="Tu correo electrónico" required>
+          <button type="button" onclick="suscribir()">¡Suscríbete!</button>
+      </form>
+      <p>© 2023 Emily in Paris</p>
+  </section>
+  
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe id="video" width="560" height="315" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+<a href="#" id="back-to-top" class="back-to-top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
